@@ -1,2 +1,2 @@
-worker: python3 -m tg_bot
+worker: python3 -m heroku-maneger
 ps:scale worker=1
