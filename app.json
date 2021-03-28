@@ -1,6 +1,6 @@
 {
-    "name": "heroku-maneger",
-    "description": "A simple heroku-maneger bot made in python. Create your Fork now.",
+    "name": "heroku maneger",
+    "description": "A simple heroku maneger bot made in python. Create your Fork now.",
     "keywords": [
         "telegram",
         "torrent",
@@ -20,7 +20,7 @@
         "BOT_TOKEN": {
             "description": "Your bot token",
             "value": ""
-    },
+       },
     "addons": [],
     "buildpacks": [
         {
