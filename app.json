@@ -1,0 +1,36 @@
+{
+    "name": "heroku-maneger",
+    "description": "A simple heroku-maneger bot made in python. Create your Fork now.",
+    "keywords": [
+        "telegram",
+        "torrent",
+        "searcher"
+    ],
+    "website": "https://github.com/munnipppz/heroku-maneger",
+    "repository": "https://github.com/munnipopz/heroku-maneger",
+    "env": {
+        "API_ID": {
+            "description": "Get it from my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get it from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
